@@ -12,8 +12,8 @@ let salaries = {
         result += salaries[key];
       }
     }
-    return console.log(result);
+    return result;
   },
 };
 
-salaries.total();
+console.log(salaries.total());
